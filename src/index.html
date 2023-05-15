@@ -4,11 +4,22 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Listagem Pokémon</title>
+    <title>Pokédex</title>
+
+    <link rel="preconnect" href="https://fonts.gooogleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/estilos.css" />
+    <link rel="stylesheet" href="./css/scrollbar.css" />
   </head>
   <body>
     <header>
-      <a href="/">
+      <a href="#">
         <img src="./imagens/pokeball.png" alt="pokebola" class="logo" />
       </a>
       <button id="botao-alterar-tema">
@@ -19,7 +30,7 @@
       <ul class="listagem-pokemon">
         <li class="cartao-pokemon">
           <div class="informacoes">
-            <span>bulbasaur</span>
+            <span>Bulbasaur</span>
             <span>#001</span>
           </div>
 
@@ -87,7 +98,7 @@
           <img src="./imagens/charmander.gif" alt="Charmander" class="gif" />
 
           <ul class="tipos">
-            <li class="tipo grama">Fogo</li>
+            <li class="tipo fogo">Fogo</li>
           </ul>
 
           <p class="descricao">
@@ -158,7 +169,7 @@
 
         <li class="cartao-pokemon">
           <div class="informacoes">
-            <span>wartortle</span>
+            <span>Wartortle</span>
             <span>#008</span>
           </div>
 
@@ -231,7 +242,29 @@
             que seus órgãos moles evoluam dentro de sua couraça.
           </p>
         </li>
+
+        <li class="cartao-pokemon">
+          <div class="informacoes">
+            <span>Butterfree</span>
+            <span>#012</span>
+          </div>
+
+          <img src="./imagens/butterfree.gif" alt="butterfree" class="gif" />
+
+          <ul class="tipos">
+            <li class="tipo inseto">inseto</li>
+            <li class="tipo voador">voador</li>
+          </ul>
+
+          <p class="descricao">
+            Butterfree tem uma capacidade superior para procurar um delicioso
+            mel de flores. Ele pode até mesmo buscar, extrair, transportar e mel
+            de flores que estão florescendo mais de seis milhas do seu ninho.
+          </p>
+        </li>
       </ul>
     </main>
+
+    <script src="./js/index.js"></script>
   </body>
 </html>
