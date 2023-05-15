@@ -9,10 +9,10 @@ To clone and run this application, you'll need [Git](https://git-scm.com/) insta
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/Ericchk/pokedex-html.git
+$ git clone https://github.com/Ericchk/pokedex.git
 
 # Go into the repository
-$ cd pokedex-html
+$ cd pokedex
 ```
 
 
